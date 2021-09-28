@@ -1,0 +1,26 @@
+
+    table {
+        background-color: rgb(196, 204, 247);
+        text-align: center;
+        border-spacing: 1px 4px;
+    }
+    .period { 
+        border-top: 2px solid rgb(243, 165, 165);
+        background-color: rgb(247, 216, 216);    
+        }
+    .android{
+        border-top: 2px solid rgb(4, 128, 45);
+        background-color: rgb(102, 207, 137);
+    }
+    .ios{
+        border-top: 2px solid rgb(29, 132, 158);
+        background-color: rgb(116, 185, 202);
+    }
+    .windows{
+        border-top: 2px solid rgb(182, 55, 165);
+        background-color: rgb(223, 130, 210);
+    }
+    .others{
+        border-top: 2px solid rgb(202, 164, 38);
+        background-color: rgb(230, 196, 88);
+    }

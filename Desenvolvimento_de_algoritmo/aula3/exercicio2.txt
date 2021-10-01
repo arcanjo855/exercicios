@@ -1,0 +1,20 @@
+algoritmo exercicio2
+inicio
+
+	real salario, horasT, 
+	literal turno
+	escreva ("Digite N para noturno e D para diurno e V para vespertino: ")
+	leia (turno)
+	escreva ("Digite a quantidade de horas trabalhadas: ")
+	leia(horasT)
+	
+	se (turno == 'N')
+		salario = 45 * horasT
+
+	senao
+		salario = 37.50 * horasT
+	
+
+	escreva("Seu salario é de : R$" + salario )
+		
+fim

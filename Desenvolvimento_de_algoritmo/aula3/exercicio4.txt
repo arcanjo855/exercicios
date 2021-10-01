@@ -1,0 +1,42 @@
+algoritmo exercicio4
+inicio
+
+	real codigo, salario
+	inteiro cargo
+	escreva ("Digite o codigo correspondendte ao seu cargo :")
+	leia (cargo)
+	escreva ("Digite o valor do seu salario :")
+	leia(salario)
+
+	
+	se (cargo >0 e cargo<5)
+
+		escolha(codigo)
+			caso 1: 
+			aumento = salario * 0.5
+			cargo = "Escriturado"
+			pare
+
+			caso 2: 
+			aumento = salario * 0.4
+			cargo = "Secretario"
+			pare
+
+			caso 3: 
+			aumento = salario * 0.35
+			cargo = "Caixa"
+			pare
+
+			caso 4: 
+			aumento = salario * 0.2
+			cargo = "Gerente"
+			pare
+
+		escreva("Cargo: " + cargo)
+		escreva("Valor do aumento: " + aumento)
+		escreva("Novo salário: " + aumento + salario )
+
+	senao 
+		se (cargo == 5)
+			escreva("Diretor, seu salario é de: " + salario + "Nao tem aumento")
+fim

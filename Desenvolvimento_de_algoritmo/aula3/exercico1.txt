@@ -1,0 +1,12 @@
+algoritmo exercicio1
+inicio
+
+	inteiro num1
+	escreva("Digite um número: ")
+	leia(num1)
+	se (num1 >=0 e num1 <10)
+		escreva("valor correto")
+	senão
+		escreva("valor incorreto")
+
+fim

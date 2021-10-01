@@ -1,0 +1,24 @@
+algoritmo exercicio5
+inicio
+
+	real a, b, c, x1, x2, delta
+
+	escreva ("Digite o valor de a")
+	leia (a)
+	escreva ("Digite o valor de b")
+	leia (b)
+	escreva ("Digite o valor de c")
+	leia (c)
+	
+	delta = (b*b)-(4*a*c)
+	
+	se (delta >= 0)
+		x1 = (-1 * b + (delta/delta)) / (2 * a)
+		x2 = (-1 * b - (delta/delta)) / (2 * a)
+
+		escreva("As raizes da equação sao: " + x1 + "e" + x2)
+		
+				
+	senao 
+		escreva("Delta deu um valor negativo e nao será calculada as raizes")
+fim

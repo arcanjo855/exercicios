@@ -1,0 +1,15 @@
+algoritmo exercicio3
+inicio
+
+	real bolsa, tempo
+	escreva ("Digite o valor da bolsa: ")
+	leia (bolsa)
+	escreva ("Digite a quantidade de meses de estagio")
+	leia(tempo)
+
+
+	se (tempo >= 24 e bolsa >= 750 e bolsa <=950)
+		escreva("Participara do treinamento")
+	senao
+		escreva("não participara")
+fim

@@ -9,7 +9,9 @@
 <body>
     <form action="" method="POST" class="tabela">
         <h1>Formulário<br>
-            <span class = "titulo"> Preencha todos os campos.</span>
+            <h2>
+                <span class = "titulo"> Preencha todos os campos.</span>
+            </h2>
         </h1>
         <div>
             <div class = "rotulos">Nome :</div>
@@ -19,19 +21,22 @@
             <div class = "rotulos">Nome :</div>
             <input id = "email" type="email" name="email" placeholder="email valido" class="entrada" />
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-    </form>
-    
+        <div>
+            <div class="rotulos">Assunto :</div>
+            <select name="opçoes" class="entrada">
+                <option value=""></option>
+                <option value="Duvidas sobre o produto">Duvidas sobre o produto</option>
+                <option value="Atraso na entrega">Atraso na entrega</option>
+            </select>
+            <div>
+                <div class="rotulos">Mensagem :</div>
+                <textarea id="mensagem" name="mensagem" placeholder="sua mensagem" class="entrada"></textarea>
+            </div>
+            <div>
+                <div class="rotulos">$nbsp</div>
+                <input type="button" value="enviar" class="botao" />
+            </div>
+        </div>
+    </form>   
 </body>
 </html>

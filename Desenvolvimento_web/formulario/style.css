@@ -1,0 +1,53 @@
+form {
+    background-color: rgb(120, 138, 238);
+    border-radius: 10px;
+    width: 450px;
+    height: 390px;
+    color: ivory;
+    text-align: center;
+    
+}
+
+
+
+.titulo {
+    border-bottom: 2px solid rgb(10, 10, 10);
+    text-align: center;
+    font-size: 15px;
+    text-align: center ;
+}
+
+
+
+.rotulos {
+    width: 60px;
+    height: 10px;   
+    text-align: center;
+
+}
+
+.entrada{
+    width: 300px;
+    height: 25px;
+    border-radius: 7px;
+    text-align: left;
+}
+.botao{
+    width: 60px;
+    height: 30px;
+    text-align: left;
+    border-radius: 7px;
+    background-color: rgb(39, 38, 38);
+    color: ivory;
+    font-size: 15px;
+    
+}
+#mensagem {
+    text-align: left;
+    width: 300px;
+    height: 70px;
+    
+}
+
+
+

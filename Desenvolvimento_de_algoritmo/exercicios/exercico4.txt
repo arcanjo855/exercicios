@@ -1,0 +1,30 @@
+algoritmo exercicio3
+
+inicio
+ 	
+      literal sexo
+      real altura, masc, fem, mediaF, mediaM, qntdM, qntdF
+      		
+      
+
+      enquanto (sexo != 'O'):
+
+      	escreva("Digite M para maculino ou F para feminino e O para parar o programa: ")
+      	leia (sexo)
+      	escreva("Digite a sua altura: ")
+      	leia (altura)
+	
+      	se (sexo = 'M' ou sexo = 'm'):
+      		masc += altura
+		qntdM ++  
+    	se (sexo = 'F' ou sexo = 'f')
+  		fem += altura
+ 		qntdF ++
+
+      mediaM = masc / qntdM
+      mediaF = fem / qntdF
+
+      escreva("A media de altura de homens é: " + mediaM + " A media de altura de mulheres é: " + mediaF)
+
+
+fim

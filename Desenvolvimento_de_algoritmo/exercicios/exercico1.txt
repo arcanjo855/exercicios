@@ -1,0 +1,26 @@
+algoritmo exercicio1
+
+inicio
+ 	
+
+      real num, media, mediaNum
+	   
+      maiorNum = -9999999999
+      enquanto (num != 0)
+ 	
+      	escreva("Digite um número ou 0 para parar o programa: ")
+      	leia (num)
+
+	se (num != 0)
+    		qntdNum ++
+		mediaNUM += num
+	se (num > maiorNum)
+		maiorNum = num
+	
+	media = mediaNum / qntdNum
+
+
+      escreva("A media dos valores apresentados é: " + )
+
+
+fim

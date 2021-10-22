@@ -1,0 +1,23 @@
+algoritmo exercicio2
+
+inicio
+ 	
+
+      real num, poss, neg, menorNum
+      menorNum = 999999		   
+      enquanto (sexo != 0)
+ 	
+      	escreva("Digite um número ou 0 para parar o programa: ")
+      	leia (num)
+	se (num < menorNum)
+    		menorNum = num
+	se (num > 0)
+		poss ++
+	senao
+		neg ++
+      	
+
+      escreva("Números possitivos são : " + poss + " Números negativos são: " + neg + " O menor número é: " + menorNum)
+
+
+fim

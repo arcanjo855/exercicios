@@ -1,0 +1,11 @@
+body {
+    padding: 0;
+    margin: 10px;
+    text-align: left;
+    background-color: aliceblue;
+}
+#cadas{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
